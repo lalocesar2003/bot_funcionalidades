@@ -22,7 +22,7 @@ export class WebhookController {
 
   @Get()
   findAll() {
-    return 'hola rey';
+    return 'Hola rey';
   }
 
   @Get(':id')
