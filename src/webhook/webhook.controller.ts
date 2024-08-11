@@ -111,7 +111,7 @@ export class WebhookController {
               type: 'list',
               header: {
                 type: 'text',
-                text: '✨ ¡Bienvenido a DevHouse! ✨',
+                text: '✨ ¡Bienvenido a DevHouse! ✨ bot 2',
               },
               body: {
                 text: 'Selecciona cómo podemos ayudarte hoy',
