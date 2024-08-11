@@ -42,7 +42,7 @@ export class WebhookController {
     //   // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
     //   // Enviar mensaje de respuesta
     //   await fetch(
-    //     `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+    //     `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
     //     {
     //       method: 'POST',
     //       headers: {
@@ -62,7 +62,7 @@ export class WebhookController {
 
     //   // Marcar mensaje entrante como leído
     //   await fetch(
-    //     `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+    //     `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
     //     {
     //       method: 'POST',
     //       headers: {
@@ -92,7 +92,7 @@ export class WebhookController {
       // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
       // Enviar mensaje de respuesta
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
@@ -161,7 +161,7 @@ export class WebhookController {
 
       // Marcar mensaje entrante como leído
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
@@ -193,7 +193,7 @@ export class WebhookController {
       // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
       // Enviar mensaje de respuesta
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
@@ -221,7 +221,7 @@ export class WebhookController {
 
       // Marcar mensaje entrante como leído
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
@@ -291,7 +291,7 @@ export class WebhookController {
 
       // Marcar mensaje entrante como leído
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
@@ -399,7 +399,7 @@ export class WebhookController {
 
       // Marcar mensaje entrante como leído
       await fetch(
-        `https://graph.facebook.com/v18.0/${business_phone_number_id}/messages`,
+        `https://graph.facebook.com/v20.0/${business_phone_number_id}/messages`,
         {
           method: 'POST',
           headers: {
